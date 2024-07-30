@@ -1,8 +1,7 @@
 # Personal AstroNvim Configuration
 
-My own personal AstroNvim configuration, version controlled for portability.
-
-Based on [AstroNvim](https://github.com/AstroNvim/AstroNvim).
+My own personal [AstroNvim](https://github.com/AstroNvim/AstroNvim)
+configuration, version controlled for portability.
 
 ## 🛠️ Installation
 
