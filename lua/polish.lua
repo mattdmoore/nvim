@@ -2,7 +2,7 @@ require("sonarlint").setup {
   server = {
     cmd = {
       "sonarlint-language-server",
-      "stdio",
+      "-stdio",
       "-analyzers",
       vim.fn.expand "$MASON/share/sonarlint-analyzers/sonarpython.jar",
       vim.fn.expand "$MASON/share/sonarlint-analyzers/sonariac.jar",
@@ -13,6 +13,7 @@ require("sonarlint").setup {
   filetypes = {
     "python",
     "yaml",
+    "helm",
     "go",
   },
 }
