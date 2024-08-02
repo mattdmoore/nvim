@@ -8,6 +8,7 @@ return {
   -- Style
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.workflow.bad-practices-nvim" },
+  { import = "astrocommunity.color.transparent-nvim" },
 
   -- Productivity
   { import = "astrocommunity.editing-support.conform-nvim" },
