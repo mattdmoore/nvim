@@ -1,7 +1,9 @@
 return {
-  "akinsho/toggleterm.nvim",
-  opts = {
-    shell = "fish",
+  {
+    "akinsho/toggleterm.nvim",
+    opts = {
+      shell = "fish",
+    },
   },
   {
     "AstroNvim/astrocore",
