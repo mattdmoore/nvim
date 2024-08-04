@@ -24,4 +24,8 @@ return {
       },
     },
   },
+  {
+    "danarth/sonarlint.nvim",
+    opts = {},
+  },
 }

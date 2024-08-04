@@ -16,10 +16,7 @@ return {
 
   -- Language packs
   { import = "astrocommunity.pack.ansible" },
-  { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.fish" },
-  { import = "astrocommunity.pack.go" },
-  { import = "astrocommunity.pack.helm" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.python-ruff" },
