@@ -7,12 +7,13 @@ return {
   "AstroNvim/astrocommunity",
   -- Style
   { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.workflow.bad-practices-nvim" },
   { import = "astrocommunity.color.transparent-nvim" },
+  { import = "astrocommunity.media.image-nvim" },
 
   -- Productivity
   { import = "astrocommunity.editing-support.conform-nvim" },
   { import = "astrocommunity.git.git-blame-nvim" },
+  { import = "astrocommunity.workflow.bad-practices-nvim" },
 
   -- Language packs
   { import = "astrocommunity.pack.ansible" },
