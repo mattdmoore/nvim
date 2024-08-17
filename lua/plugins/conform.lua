@@ -71,7 +71,7 @@ return {
 
       opts.formatters_by_ft = {
         -- ["*"] = { "injected" }, -- enables injected-lang formatting for all filetypes
-        python = { "ruff_format", "isort" },
+        python = { "ruff_organize_imports", "ruff_format" },
         lua = { "stylua" },
         ["_"] = function(bufnr)
           return require("astrocore.buffer").is_valid(bufnr)
@@ -81,14 +81,14 @@ return {
       }
 
       -- prettier filetypes
-      vim.tbl_map(function(ft) opts.formatters_by_ft[ft] = { "prettierd", "prettier", stop_after_first = true } end, {
+      vim.tbl_map(function(ft) opts.formatters_by_ft[ft] = { "prettierd", stop_after_first = true } end, {
         "yaml",
         "yaml.ansible",
         "markdown",
       })
 
       opts.formatters = {
-        prettier = {
+        prettierd = {
           options = {
             ft_parsers = {
               markdown = "markdown",
