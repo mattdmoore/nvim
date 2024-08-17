@@ -14,6 +14,7 @@ return {
   { import = "astrocommunity.editing-support.conform-nvim" },
   { import = "astrocommunity.git.git-blame-nvim" },
   { import = "astrocommunity.workflow.bad-practices-nvim" },
+  { import = "astrocommunity.markdown-and-latex.peek-nvim" },
 
   -- Language packs
   { import = "astrocommunity.pack.ansible" },
