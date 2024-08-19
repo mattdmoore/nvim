@@ -27,6 +27,7 @@ return {
   {
     url = "https://gitlab.com/schrieveslaach/sonarlint.nvim",
     ft = { "python", "yaml", "helm", "go" },
+    enabled = false,
     config = function()
       require("sonarlint").setup {
         server = {

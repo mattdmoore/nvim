@@ -5,7 +5,7 @@ return {
       lua = { "stylua" },
       python = { "ruff" },
       ansible = { "ansiblefmt" },
-      yaml = { "prettierd" },
+      yaml = { "yamlfmt" },
       markdown = { "prettierd" },
     },
   },
